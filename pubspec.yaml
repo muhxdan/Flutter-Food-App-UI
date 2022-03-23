@@ -1,0 +1,35 @@
+name: food_app
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.16.1 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dot_navigation_bar: ^1.0.1+4
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+  get: 4.6.1
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
